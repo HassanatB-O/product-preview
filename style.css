@@ -12,13 +12,15 @@ body{
 }
 #container{
     margin: auto;
-    justify-content: center;
     display: flex;
+    justify-content: center;
     border-radius: 20px;
 }
 #img{
     width: 500px;
     height: 590px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
 }
 #perf{
     text-transform: uppercase;
@@ -49,6 +51,8 @@ body{
     padding: 20px;
     background-color: white;
     width: 400px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
 }
 #price{
     display: flex; 
@@ -61,7 +65,7 @@ button{
     background-color: hsl(158, 36%, 37%);
     border: none;
     padding: 15px;
-    width: 40%;
+    width: 50%;
     border-radius: 7px;
     text-align: center;
     margin-left: 15px;
